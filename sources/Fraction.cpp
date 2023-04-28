@@ -275,6 +275,10 @@ bool ariel::operator<=(const Fraction& fraction, const double& num)
 {
     return fraction.getNumerator() <= fraction.getDenominator() * num;
 }
+bool ariel::operator==(const Fraction& fraction, const double& num)
+{
+    return fraction.getNumerator() == fraction.getDenominator() * num;
+}
 
 std::ostream& ariel::operator<<(std::ostream& os, const Fraction& fraction){
     os << fraction.getNumerator() << "/" << fraction.getDenominator();

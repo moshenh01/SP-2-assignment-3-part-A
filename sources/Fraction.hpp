@@ -109,6 +109,8 @@
     bool operator>=(const double& num,const Fraction& fraction );
     bool operator<=(const double& num,const Fraction& fraction );
 
+    bool operator==(const Fraction& fraction, const double& num);
+
 
     
   

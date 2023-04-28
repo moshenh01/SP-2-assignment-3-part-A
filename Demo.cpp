@@ -28,6 +28,8 @@ int main() {
     Fraction c = a+b-1;
     cout << c++ << endl;
     cout << --c << endl;
+    Fraction f(81,-192) ;
+    if(f == -0.421875) cout << "81/-192 == " << f << endl;
 
     cout << "c >=b ? : " << (c >= b) << endl;
     if (a > 1.1) cout << " a is bigger than 1.1" << endl;
